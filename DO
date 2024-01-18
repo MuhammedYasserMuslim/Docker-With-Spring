@@ -1,0 +1,5 @@
+docker build -t name .
+#################Run Container#######################
+docker run -p 8080:8080 -d name
+########To Stop Container ######################
+docker stop ID
